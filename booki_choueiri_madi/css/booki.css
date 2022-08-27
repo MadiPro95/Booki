@@ -1,0 +1,812 @@
+header {
+    margin-left: 20px;
+}
+section {
+    margin-left: 20px;
+}
+#entete {
+    display: flex;
+    flex-wrap: nowrap;
+}
+body {
+    max-width: 1450px
+}
+.booki {
+    width: auto;
+    height: 90px;
+    flex: 4;
+}
+.twomenu {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.menu-items {
+    max-width: 150px;
+    height: 70px;
+    max-height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'raleway';
+    text-decoration: none;
+    color: black;
+    flex: 1;
+    
+} 
+.menu-items:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
+a {
+    font-family: 'raleway';
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #0065fc;
+}
+strong {
+    font-weight: bold;
+    font-weight: bolder;
+}
+p {
+    font-family: 'raleway';
+}
+#recherche {
+    display: flex;
+    margin-top: 20px
+}
+#Recherche .fa-solid{
+    display: none;
+}
+#position {
+    width: 50px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;
+}
+#champ {
+    border: 1px solid #F2F2F2;
+    width: 158px;
+    height: 58px;
+}
+input {
+    width: 150px;
+    height: 20px;
+    border: none;
+    font-family: "raleway";
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#Recherche {
+    border: 2px solid #0065fc;
+    border-radius: 0px 10px 10px 0px;
+    width: 110px;
+    text-align: center;
+    color: white;
+    background-color: #0065fc;
+    display: flex;
+    justify-content: center;
+}
+#recherche .fa-location-dot {
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    background-color: #F2F2F2;
+    position: relative;
+    left: 17px;
+    top: 15px;
+}
+#texte {
+    font-family: "raleway";
+
+}
+#filtres {
+    display: flex;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.allfiltres {
+    display: flex;
+}
+.filtres .fa-solid {
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 15px 15px 15px;
+    color: #0065fc;
+    background-color: #DEEBFF;
+    position: relative;
+    top: 0px;
+    right: 6px;
+}
+.centrer-filtres {
+    margin: 0px 25px 0px 25px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+    padding: 0px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.centrer-filtres:hover {
+    background-color: #0065fc;
+    color: white;
+}
+#info {
+    display: flex;
+    margin-right: 15px;
+}
+#i {
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+.fa-info {
+    background-color: white;
+    color: #0065fc;
+    font-size: x-small;
+    border: none;
+    padding: 0px;
+    position: relative;
+    left: 8px;
+}
+#dispo {
+    position: relative;
+    bottom: 12px;
+}
+#hebergements-card {
+    display: flex;
+    justify-content: space-between;
+}
+#ham #allcard {
+    width: auto;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#ham {
+    width: 840px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    background-color: #F2F2F2;
+    
+}
+h3 {
+    font-family: "raleway";
+}
+#ham .card {
+    width: 246px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1px;
+}
+#ham .card:hover h3 {  
+    color: #0065fc
+}
+#ham .card .card-image {
+    width: 246px;
+    height: 100px;
+    object-fit: scale-down;
+}
+#ham .card .card-image img {
+    width: 242px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    left: 2px;
+    top: 2px;
+    object-fit: cover;
+}
+#ham .card .card-title h3 {
+    position: relative;
+    left: 5px;
+}
+#ham .card .nuit p {
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+#ham .card .étoiles {
+    position: relative;
+    bottom: 25px;
+}
+#ham .card .étoiles i {
+    border: none;
+    padding: 0px;
+    background-color: white;
+    color: #0065fc;
+    position: relative;
+    top: 0px;
+    left: 5px
+}
+#lpp {
+    width: 400px;
+    height: 600px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+}
+#lpp-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+}
+#lpp-title span{
+    font-family: "raleway";
+    margin: 17px 0px 17px 0px;
+}
+#lpp #alllcard {
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#lpp #alllcard .fa-star {
+    position: relative;
+    top: 25px;
+}
+#lpp .card {
+    width: 380px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;   
+}
+#lpp .card .card-image {
+    width: 130px;
+    height: 130px;
+    align-self: flex-start;
+    justify-content: center;
+    margin-right: 15px;
+}
+#lpp .card .card-image img {
+    width: 125px;
+    height: 125px;
+    border-radius: 10px 0px 0px 10px;
+    padding: 1px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    object-fit: cover;
+}
+#lpp .card .text {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#lpp h3 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#lpp .étoiles {
+    color: #0065fc;
+}
+#activité-card { 
+    width: auto;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+#allcards {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 450px;
+}
+.threecards {
+    width: 670px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.threecards h3 {
+    font-family: "raleway";
+    padding-left: 15px;
+}
+.large-card {
+    width: 302px;
+    height: 450px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    border-radius: 20px;
+}
+.large-card .card-image {
+    width: 302px;
+    height: 394px;
+    border-radius: 20px 20px 0px 0px;
+}
+.large-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    
+}
+.large-card .card-title {
+    border-radius: 0px 0px 20px 20px;
+    width: 302px;
+    height: 56px;
+}
+.twocards {
+    width: 302px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.big-card {
+    width: 302px;
+    height: 240px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+}
+.big-card .card-image {
+    width: 302px;
+    height: 184px;
+    border-radius: 20px 20px 0px 0px;
+}
+.big-card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.big-card .card-title {
+    border-radius: 0px 0px 20px 20px;
+    width: 302px;
+    height: 56px;
+}
+.small-card {
+    width: 302px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+.small-card .card-image {
+    width: 302px;
+    height: 94px;
+}
+.small-card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.small-card .card-title {
+    border-radius: 0px 0px 20px 20px;
+    width: 302px;
+    height: 56px;
+}
+.second-twocards {
+    width: 302px;
+    height: 450px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.second-twocards .big-card .card-image {
+    width: 100%;
+    height: 70%;
+    border-radius: 20px 20px 0px 0px;
+}
+.second-twocards .big-card .card-title {
+    width: 100%;
+    height: 30%;   
+}
+.second-twocards .big-card {
+    width: 302px;
+    height: 200px;
+}
+.second-twocards .small-card {
+    width: 302px;
+    height: 200px;
+}
+.second-twocards .small-card .card-image {
+    width: 100%;
+    height: 70%;
+    border-radius: 20px 20px 0px 0px;
+}
+.second-twocards .small-card .card-title {
+    width: 100%;
+    height: 30%;   
+}
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: space-between;
+}
+footer div {
+    margin-left: 20px;
+    width: 33%;
+}
+h4 {
+    font-family: "raleway";
+}
+
+@media screen and (max-width: 998px) and (min-width: 768px)
+{
+    section p {
+        color: black;
+        text-align: left;
+    }
+    #entete {
+        display: flex;
+        align-items: center;
+    }
+    .booki {
+        justify-content: center;
+        flex: 3;
+    }
+    .twomenu {
+        justify-content: space-between;
+        flex: 1;
+    }
+    .menu-items {
+        display: flex;
+        justify-content: center;
+    }
+    .menu-items:hover {
+        border-bottom: 2px solid #0065fc;
+        border-bottom: none;
+    }
+    #texte {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #recherche {
+        display: flex;
+        justify-content: center;
+    }
+    #Recherche p {
+        color: white;
+    }
+    #filtres {
+        display: flex;
+        justify-content: space-between;
+    }
+    #info {
+        display: flex;
+        margin-right: 15px;
+        justify-content: center;
+    }
+    #hebergements-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        justify-content: space-between;
+    }
+    .ham {
+        width: auto;
+        height: auto;
+    }
+    #ham .card .nuit p {
+        position: relative;
+        bottom: 15px;
+        left: 5px;
+        text-align: left;
+    }
+    #allcard {
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #lpp {
+        width: auto;
+        height: auto;
+        margin-top: 30px;
+    }
+    #lpp-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+    }    
+    #lpp #alllcard {
+        display: flex;
+        flex-direction: row;
+        width: 850px;
+        height: auto;
+        justify-content: space-evenly;
+    }
+    #lpp .card {
+        width: 270px;
+        height: 180px;
+    }
+    #lpp .card .card-image {
+        width: 150px;
+        height: 180px;
+        align-self: flex-start;
+        justify-content: center;
+        margin-right: 15px;
+    }
+    #lpp .card .card-image img {
+        width: 100%;
+        height: 98%;
+        border-radius: 10px 0px 0px 10px;
+        object-fit: cover;
+    }
+    #lpp .card .text {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: auto;
+    }
+    #activité-card {
+        width: auto;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+    #allcards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: 1000px;
+    }
+    .threecards {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    footer div {
+        margin-left: 20px;
+        width: auto;
+    } 
+}       
+@media screen and (max-width: 768px)
+{
+    p {
+        color: black; 
+    } 
+    header {
+        margin-bottom: 40px;
+    }
+    strong {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #entete {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .booki {
+        width: 727px;
+        text-align: center;
+        position: relative;
+        left: 40px;
+    }
+    .twomenu {
+        width: 100%;
+    }
+    .menu-items {
+        width: auto;
+        max-width: none;
+    }
+    .menu-items:hover {
+        border-bottom: 2px solid #0065fc;
+        border-top: none;
+    }
+    #recherche {
+        justify-content: flex-start;
+        margin-top: 20px
+    }
+    #champ {
+        width: 300px;
+    }
+    form {
+        width: auto;
+        text-align: center;
+    }
+    input {
+        width: auto;
+        height: 28px;
+    }
+    #Recherche {
+        border: 2px solid #0065fc;
+        border-radius: 10px 10px 10px 10px;
+        width: 50px;
+        text-align: center;
+        color: white;
+        background-color: #0065fc;
+        position: relative;
+        right: 10px;
+    }
+    #Recherche .fa-solid {
+        display: flex;
+        align-items: center;
+    }
+    #Recherche p {
+        display: none;
+    }
+    #texte {
+        width: 340px
+    }
+    #texte strong {
+        font-size: 25px
+    }
+    #filtres {
+        display: flex;
+        flex-direction: column;
+    }
+    .allfiltres {
+        display: flex;
+        flex-wrap: wrap;
+        width: 447px;
+        justify-content: space-between;
+    }
+    div .filtres {
+        width: auto;
+    } 
+    .centrer-filtres {
+        width: auto;
+        margin-left: unset;
+    }
+    #info {
+        justify-content: flex-start;
+        margin-top: 10px;
+    } 
+    #dispo {
+        font-weight: 400;
+    }
+    #hebergements-card {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: unset;
+    }
+    #ham {
+        height: 1420px;
+        width: 727px;
+        background-color: white;
+        padding: 10px 20px 10px 20px; 
+    } 
+    #ham #allcard {
+        width: 747px;
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    #ham .card {
+        width: 727px;
+        height: 200px;
+        box-shadow: 5px 5px 5px #F2F2F2;
+    }
+    #ham .card .card-image {
+        width: 100%;
+    }
+    #ham .card .card-image img {
+        width: 99%;
+        object-fit: cover;
+    }
+    #lpp {
+        height: auto;
+        width: 727px;
+        border-radius: unset;
+        margin-bottom: 15px;
+        padding: 10px 20px 10px 20px;
+    }
+    #lpp-title {
+        width: 727px;
+    }
+    #lpp #alllcard {
+        height: 450px;
+        width: 748px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    #lpp .card {
+        width: 728px;
+    }
+    #lpp .étoiles {
+        height: auto;
+    }
+    #activité-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        width: auto;
+    }
+    #allcards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: 1300px;
+    }
+    .threecards {
+        width: auto;
+        height: 640px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .large-card {
+        width: 727px;
+        height: 200px;
+    }
+    .large-card .card-image {
+        width: 727px;
+        height: 70%;
+    }
+    .twocards {
+        width: 747px;
+        height: 420px;
+    }
+    .big-card {
+        width: 727px;
+        height: 200px;
+    }
+    .big-card .card-image {
+        width: 727px;
+        height: 70%;
+    }
+    .small-card {
+        width: 727px;
+        height: 200px;
+    }
+    .small-card .card-image {
+        width: 727px;
+        height: 70%;
+    }
+    .second-twocards {
+        width: 747px;
+        height: 420px;
+        flex-direction: column;
+    }
+    .second-twocards .big-card {
+        width: 727px;
+        height: 200px;
+    }
+    .second-twocards .small-card {
+        width: 727px;
+        height: 200px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div {
+        width: auto;
+    }
+    h4 {
+        font-weight: 950;
+        font-size: large;
+    }
+    footer p {
+        font-weight: 400;
+    }
+    header {
+        margin-left: unset;
+    }
+    body {
+        margin: 0px;
+        width: 767px;
+    }
+}
